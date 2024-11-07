@@ -16,6 +16,10 @@ $ git commit -m "description"
 ```bash
 $ git push -u <localBranchName> <remoteBranchName>
 ```
+5. Привязать локальный репозиторий к удаленному:
+```bash
+$ git remote add <localBranchName> <repoName>
+```
 ## Дополнительные команды
 * Инициализация
 ```bash
