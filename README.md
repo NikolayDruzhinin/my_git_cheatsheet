@@ -33,8 +33,9 @@ $ git status
 ```bash
 $ git remote -v
 ```
-## Посмотреть лог
+* Посмотреть лог
 ```bash
 $ git log
 $ git log --oneline
 ```
+HEAD - указатель на последний коммит 
