@@ -50,3 +50,13 @@ graph LR
     staged -- "git commit" --> tracked/commited
     tracked -- edit --> modified
 ```
+
+* Добавить файлы к последнему коммиту
+```bash
+$ git commit --amend --no-edit
+```
+* Изменить название коммита 
+```bash
+$ git commit --amend -m <New message>
+```
+
